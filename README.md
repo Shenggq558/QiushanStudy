@@ -1,4 +1,4 @@
-# qiushan-carina
+# QiushanStudy
 
 ## Project setup
 ```
