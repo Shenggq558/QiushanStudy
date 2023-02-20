@@ -9,7 +9,7 @@ const store = new Vuex.Store({
   state() {
     return {
       // 就是公共的数据，所有的组件都可以直接使用
-      appName: 'qiushan-carina',
+      appName: 'QiushanStudy',
       appLabel: '秋山',
       logo: require(`../imgs/logo.svg`),
       author: '秋山',
