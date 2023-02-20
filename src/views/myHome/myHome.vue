@@ -67,7 +67,7 @@
       </el-aside>
       <el-container>
         <el-main>
-          <el-button type="primary" @click="update()">更新数据</el-button>
+          <!-- <el-button type="primary" @click="update()">更新数据</el-button> -->
           <el-form ref="form" :model="form" label-width="80px">
             <el-form-item label="活动名称">
               <el-input v-model="form.name"></el-input>
@@ -194,7 +194,6 @@ export default {
   width: 100%;
   background-color: #ba55d3;
   color: #fff;
-  padding: 0 20px;
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
